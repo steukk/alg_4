@@ -1,3 +1,4 @@
+#решение задания с жадным алгоритмом для составления расписания
 def greedy_scheduling(machines, jobs):
     machine_loads = [0] * machines
     sorted_jobs = sorted(jobs, reverse=True)
